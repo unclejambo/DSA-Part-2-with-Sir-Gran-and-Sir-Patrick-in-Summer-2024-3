@@ -4,7 +4,7 @@
 
 int main(){
 	
-	stackA stack;
+    stackA stack;
     stackA evenStack;
 
     initS(&stack);
