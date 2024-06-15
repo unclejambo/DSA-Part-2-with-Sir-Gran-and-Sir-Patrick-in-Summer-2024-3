@@ -28,10 +28,10 @@ int main(){
 
     evenNumbers(&stack, &evenStack);
 
-    printf("\nStack after extracting even numbers:\n");
+    printf("\nNo even numbers:\n");
     visualize(&stack);
 
-    printf("\nEven numbers stack:\n");
+    printf("\nEven numberss:\n");
     visualize(&evenStack);
 	
 	return 0;
