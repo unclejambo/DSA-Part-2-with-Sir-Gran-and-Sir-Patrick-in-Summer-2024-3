@@ -19,6 +19,7 @@ typedef struct node{
 	struct node* left, *right;
 }NodeType,*NodePtr;
 
+Product createProduct();
 Product add(NodePtr* tree,Product newItem);
 void delete(NodePtr* tree,Product newItem);
 void BFS(NodePtr* tree);
